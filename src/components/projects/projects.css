@@ -1,0 +1,43 @@
+.title{
+    text-align: center;
+    margin-top: 1.75em;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: Poppins,sans-serif;
+    color:black
+}
+#thumbnail{
+    border-radius: 3vw;
+}
+.projectBlock{
+    display: inline;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+li{
+    padding-right:40px;
+}
+
+@media(min-width:992px){
+    #thumbnail{
+        width:25vw;
+        height:auto;
+    }
+    ul{
+       flex-direction: row; 
+
+    }
+    
+}
+@media(max-width:991px){
+    #thumbnail{
+        width:35vw;
+        height:auto;
+    }
+    ul{
+        flex-direction: row;
+    }
+}

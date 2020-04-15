@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-
+import Projects from './components/projects/projects'
 import {Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 
@@ -17,6 +17,9 @@ class App extends React.Component{
 }          <Route exact path='/' component={NavigationBar,Home}/>
           <Route path='/home'>
             <Home/>
+          </Route>
+          <Route path='/projects'>
+            <Projects/>
           </Route>
         </Switch>
       </Router>

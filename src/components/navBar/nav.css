@@ -66,7 +66,7 @@ nav{
 
 .navbar-light .navbar-toggler{
 
-    border-color: rgba(0, 0, 0, 0.0);
+    border-color: rgba(0, 0, 0, 0.0) !important;
 
 }
 
@@ -106,7 +106,7 @@ button:focus{
 
         background-color: white;
 
-        padding-right: 0;
+        padding-right: 0 !important;
 
         
 
