@@ -1,9 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import {Route, BrowserRouter as Router, Switch } from 'react-router-dom'
+
+
+
+import NavigationBar from './components/navBar/navBar'
+import Home from './components/home/home';
+class App extends React.Component{
+  render(){
+    return(
+      <Router>
+        <NavigationBar/>
+        <Switch>{// eslint-disable-next-line
+}          <Route exact path='/' component={NavigationBar,Home}/>
+          <Route path='/home'>
+            <Home/>
+          </Route>
+        </Switch>
+      </Router>
+    )
+  }
+}
 ReactDOM.render(
   <React.StrictMode>
     <App />
