@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Gallery from '../projects/jazzChords/jcScreenGallery'
 import './home.css'
 
 
@@ -22,7 +22,7 @@ class Home extends React.Component {
                 <div className="jazzChords">
                     <h1 className='jazzHeader'>Jazz Chords</h1>
                     <p className='jazzContent'>
-                        This a project that I thought of a couple years ago but did not have the skillset to create it.
+                        This a project that I thought of when thinking how I can combine my skills as a musician and a developer.
                         I have been working on this project since about November 2019.</p>
                     <p className='jazzContent'>
                         Jazz Chords is a Jazz Education Tool to be used by musicians of all levels. It will help give any musician quick 
@@ -30,9 +30,11 @@ class Home extends React.Component {
                          choices to use within the given chord. </p>
                     <p className='jazzContent'>
                         A live demo will be up soon. Keep checking for updates!
+                        Tap a screen below to see the full image.
                     </p>
-                    <p>Screenshots will go here, png with shadow</p>    
+                    <Gallery/>   
                 </div>
+                <h1>empty space for scrolling</h1>
             </div>
 
         )

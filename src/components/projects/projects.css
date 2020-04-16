@@ -1,10 +1,13 @@
 .title{
     text-align: center;
-    margin-top: 1.75em;
+    margin-top: 10%;
     font-weight: bold;
-    font-size: 3em;
+    font-size: calc(2em+3vw);
     font-family: Poppins,sans-serif;
     color:black
+}
+a:hover{
+    text-decoration: none;
 }
 #thumbnail{
     border-radius: 3vw;
@@ -24,11 +27,15 @@ li{
 @media(min-width:992px){
     #thumbnail{
         width:25vw;
+        max-width: 35em;
         height:auto;
     }
     ul{
        flex-direction: row; 
 
+    }.title{
+        
+        font-size: 3vw;
     }
     
 }
@@ -39,5 +46,10 @@ li{
     }
     ul{
         flex-direction: row;
+    }
+    .title{
+        
+    margin-top: 13%;
+
     }
 }

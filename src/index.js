@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import Projects from './components/projects/projects'
+
+import Contact from './components/contact/contact'
 import {Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 
@@ -9,7 +11,9 @@ import {Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import NavigationBar from './components/navBar/navBar'
 import Home from './components/home/home';
 class App extends React.Component{
+  
   render(){
+    console.log(window.screen.availHeight)
     return(
       <Router>
         <NavigationBar/>
@@ -20,6 +24,9 @@ class App extends React.Component{
           </Route>
           <Route path='/projects'>
             <Projects/>
+          </Route>
+          <Route path='/contact'>
+            <Contact/>
           </Route>
         </Switch>
       </Router>

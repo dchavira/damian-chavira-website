@@ -31,15 +31,14 @@ class Projects extends React.Component {
                             <IndivProject
                                 name='Personal website'
                                 image='./img/logo/Logo Transparent.png'
-                                link='/balancevr'
-                                invert='true'
+                                link='//github.com/dchavira/damian-chavira-website'
                             />
                         </li>
                         <li>
                             <IndivProject
                                 name='3D Art'
                                 image='./img/3d/sunset.png'
-                                link='/jazzchords'
+                                link='/art'
                             />
                         </li>
                     </ul>
