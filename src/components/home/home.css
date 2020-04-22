@@ -28,6 +28,10 @@
     text-align: center;
     box-shadow:0px 15px 30px rgba(0,0,0,0.5)
 }
+.jcLink{
+    color:white;
+    text-decoration: underline;
+}
 .jazzContent{
     color:white;
     padding-top: 0%;

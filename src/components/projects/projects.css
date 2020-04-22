@@ -4,7 +4,8 @@
     font-weight: bold;
     font-size: calc(2em+3vw);
     font-family: Poppins,sans-serif;
-    color:black
+    color:black;
+    padding-bottom: 2em;
 }
 a:hover{
     text-decoration: none;
@@ -45,7 +46,12 @@ li{
         height:auto;
     }
     ul{
-        flex-direction: row;
+        display: inline;
+        text-align: center;
+        margin-left: 22%;
+    }
+    li{
+        padding-right: 0px;
     }
     .title{
         

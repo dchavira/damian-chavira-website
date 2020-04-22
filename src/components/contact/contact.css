@@ -33,6 +33,14 @@ form input{
 form input:hover{
     border-bottom: 2px solid #0CACFF;
 }
+.iconsContact{
+    font-size: 3em;
+    margin-top: 50%;
+}
+.mailIcon{
+    font-size: 3.75em;
+    margin-top: 30%;
+}
 .buttonWrap{
     z-index: -1;
     width: 300%;
@@ -56,6 +64,7 @@ form input:hover{
     color: white;
     background:linear-gradient( #0CACFF,#006FFF) ;
 }
+
 .submit:hover{
     background:#006FFF;
     box-shadow:0px 5px 10px rgba(0,0,0,0.5);

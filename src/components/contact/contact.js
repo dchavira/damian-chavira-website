@@ -1,6 +1,7 @@
 import React from 'react'
 import './contact.css'
-
+import {FaGithub, FaLinkedin} from 'react-icons/fa'
+import {MdMailOutline} from 'react-icons/md'
 
 class Contact extends React.Component {
     constructor(props){
@@ -56,6 +57,11 @@ class Contact extends React.Component {
                     <button type='button' className='submit' onClick={this.submitHandler}>Send Your Message</button>
                 
                 </form>
+                <ul>
+                    <li><a href='mailto:damianchavira@gmail.com'><MdMailOutline className='iconsContact mailIcon'/></a></li>
+                    <li><a href='//www.linkedin.com/in/damian-chavira-a45886141'><FaLinkedin className='iconsContact'/></a></li>
+                    <li><a href='//www.github.com/dchavira'><FaGithub className='iconsContact'/></a></li>
+                </ul>
                 {this.state.errorMessage}
             </div>
 

@@ -3,7 +3,6 @@ import './gallery.css'
 class Gallery extends React.Component {
 
     render() {
-        console.log(this.props.invert)
         return (
             <div>
                 <ul className='galleryContainer'>

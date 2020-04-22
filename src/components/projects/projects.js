@@ -9,16 +9,16 @@ class Projects extends React.Component {
 
             <div>
                 <h1 className="title">Projects</h1>
-                <div id="projectTable">
+                <div id="projectBlock">
                     <ul>
-                        <li>
+                        <li className='projectWrap'>
                             <IndivProject
                                 name='BalanceVR'
                                 image='./img/projectLogos/LOGO-JPG.jpg'
                                 link='/balancevr'
                             />
                         </li>
-                        <li>
+                        <li className='projectWrap'>
                             <IndivProject
                                 name='Jazz Chords'
                                 image='./img/projectLogos/LOGO-JPG.jpg'
@@ -27,14 +27,14 @@ class Projects extends React.Component {
                         </li>
                     </ul>
                     <ul>
-                        <li>
+                        <li className='projectWrap'>
                             <IndivProject
                                 name='Personal website'
                                 image='./img/logo/Logo Transparent.png'
                                 link='//github.com/dchavira/damian-chavira-website'
                             />
                         </li>
-                        <li>
+                        <li className='projectWrap'>
                             <IndivProject
                                 name='3D Art'
                                 image='./img/3d/sunset.png'

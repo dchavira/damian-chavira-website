@@ -1,0 +1,19 @@
+footer{
+    width: 100%;
+    background-color: black;
+    color:white;
+    border-top: solid;
+    text-align: center;
+    font-size: 2em;
+    border-top-width:thin;
+}
+.footerIcon{
+    font-size: 3em;
+    margin-bottom: 50%;
+    margin-top: 20%;   ;
+
+}
+.mailFooter{
+    
+    font-size: 3.75em;
+}

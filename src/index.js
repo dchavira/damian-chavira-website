@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import Projects from './components/projects/projects'
-
+import './index.css'
 import Contact from './components/contact/contact'
 import {Route, BrowserRouter as Router, Switch } from 'react-router-dom'
-
-
-
+import Footer from './components/footer/footer'
+import Art from './components/projects/art/art'
+import NotFound from './components/notFound/notFound'
+import BalanceVR from './components/projects/balanceVR/balanceVR'
 import NavigationBar from './components/navBar/navBar'
 import Home from './components/home/home';
 class App extends React.Component{
@@ -27,8 +28,17 @@ class App extends React.Component{
           </Route>
           <Route path='/contact'>
             <Contact/>
+            
           </Route>
+          <Route path='/balancevr'>
+            <BalanceVR/>
+          </Route>
+          <Route path='/art'>
+            <Art/>
+          </Route>
+          <Route component={NotFound}/>
         </Switch>
+        <Footer/>
       </Router>
     )
   }
