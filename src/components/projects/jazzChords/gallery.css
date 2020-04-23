@@ -52,6 +52,7 @@ a:hover{
     .galleryContainer{
         max-width: 70%;
         margin-left: 9%;
+        display: flex;
     }
     .s1{
         width:6em;

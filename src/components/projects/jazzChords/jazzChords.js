@@ -1,9 +1,8 @@
 import React from 'react'
-import Gallery from '../projects/jazzChords/jcScreenGallery'
-import './home.css'
+import Gallery from './jcScreenGallery'
+import './jc.css'
 
-
-class Home extends React.Component {
+class JazzChords extends React.Component {
 
 
 
@@ -11,14 +10,8 @@ class Home extends React.Component {
 
         return (
 
-            <div>
-                <div><img src="/img/concert4k dark.jpg" id='concert' alt="concert" /></div>
-                <h1 className='sectionHeader'>Welcome!</h1>
-                <p>
-                    My name is Damian and I like to experiment with lots of things.
-                    Some are Web Dev, Mobile Apps, Music and Computer Graphics just to name a few.
-                </p>
-                <p style={{paddingBottom:'3%'}}>Check out my latest project below. </p>
+            <div id="jcContainer">
+                
                 <div className="jazzChords">
                     <h1 className='jazzHeader'>Jazz Chords</h1>
                     <p className='jazzContent'>
@@ -40,4 +33,4 @@ class Home extends React.Component {
 
 }
 
-export default Home;
+export default JazzChords;

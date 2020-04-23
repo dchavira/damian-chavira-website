@@ -11,6 +11,10 @@ import NotFound from './components/notFound/notFound'
 import BalanceVR from './components/projects/balanceVR/balanceVR'
 import NavigationBar from './components/navBar/navBar'
 import Home from './components/home/home';
+import JazzChords from './components/projects/jazzChords/jazzChords'
+import Resume from './components/resume/resume';
+import * as firebase from 'firebase';
+
 class App extends React.Component{
   
   render(){
@@ -23,12 +27,17 @@ class App extends React.Component{
           <Route path='/home'>
             <Home/>
           </Route>
+          <Route path='/resume'>
+            <Resume/>
+          </Route>
           <Route path='/projects'>
             <Projects/>
           </Route>
           <Route path='/contact'>
             <Contact/>
-            
+          </Route>
+          <Route path='/jazzchords'>
+            <JazzChords/>
           </Route>
           <Route path='/balancevr'>
             <BalanceVR/>

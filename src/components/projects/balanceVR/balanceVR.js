@@ -7,7 +7,9 @@ class BalanceVR extends React.Component {
             <div>
                 <div id='bvr'>
                 <img src='/img/projectLogos/LOGO-JPG.jpg' alt='Balance VR' className='logo'/>
-                    <br/>
+                <p className='balanceContent'>
+                        Logo Design by: <a href='//www.linkedin.com/in/kyle-mclemore-758275199/' style={{textDecoration:'underline',color:'white'}}> Kyle McLemore</a>
+                    </p>
                     
                     <div id="iframeContainer">  
 
@@ -33,6 +35,7 @@ class BalanceVR extends React.Component {
                         If they fall, it's game over. Will you be able to balance your stack?
 
                     </p>
+                    
                     
                 </div>
             </div>

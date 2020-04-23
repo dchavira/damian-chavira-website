@@ -1,0 +1,65 @@
+@media (max-width:991px){
+    .ResumeHeader{
+        min-width: 50%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .resumeList{
+        text-align: center;
+    }
+    .resumeIndiv{
+        text-align: center;
+        margin-bottom: 2em;
+        margin-top: 3em;
+    }
+}
+@media (min-width:992px){
+    .ResumeHeader{
+        min-width: 30%;
+        max-width: 35%;
+    }
+    .resumeIndiv{
+        
+        margin-top: 6%;
+        margin-bottom: 2%;
+    }
+}
+
+
+
+.resumeList{
+    margin-left: 12%;
+    margin: 0px;
+    padding:0px;
+    text-align: left;
+    justify-content: left;
+    border-top: solid gray 1px;
+}
+.ResumeHeader{
+    font-weight: bold;
+    font-size: 2.5em;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding:.75em;
+    margin-bottom: 0px;
+}
+.resumeIndiv{
+}
+.year{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.role{
+    color:gray;
+}
+.desc{
+    font-size: 2em;
+    font-weight: lighter;
+}
+#resumeTable{
+    margin-left: 12%;
+    max-width: 80%;
+}
+#resumeContainer{
+}

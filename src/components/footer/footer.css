@@ -6,14 +6,55 @@ footer{
     text-align: center;
     font-size: 2em;
     border-top-width:thin;
+    margin-top: 2%;
+}
+.footerName{
+    padding-top:2%;
+    font-family: Poppins,Raleway,sans-serif;
+    font-weight: normal;
+}
+footer a{
+    color: #0CACFF;
+}
+footer a:hover{
+    color:white;
 }
 .footerIcon{
     font-size: 3em;
     margin-bottom: 50%;
-    margin-top: 20%;   ;
-
+    margin-top: 20%;
+    color:white;
+    text-align: center;
+}
+.footerIcon:hover{
+    color:#0CACFF;
 }
 .mailFooter{
-    
+    margin-top: 8%;
     font-size: 3.75em;
+}
+@media (max-width:991px){
+    .footerIconContainer{
+        font-size: 1em;
+        padding-bottom: 10%;
+    }
+    .footerIcons{
+        
+        margin: 0px;
+        padding:0px;
+        display: flex;
+        flex-direction: row;
+    }
+    .footerIconContainer a{
+        font-size: 1em;
+        margin: 0px;
+        padding:0px;
+    }
+    .footerIcon{
+        margin: 0px;
+        font-size: 2em;
+    }
+    .directLink{
+        padding-bottom: 1em;
+    }
 }

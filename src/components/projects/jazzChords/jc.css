@@ -1,0 +1,8 @@
+#jcContainer{
+    margin-top: 10%;
+}
+@media(max-width:991px){
+    #jcContainer{
+        margin-top: 6em;
+    }
+}

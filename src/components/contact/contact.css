@@ -13,6 +13,13 @@
     }
     .title{
         margin-top: 13%;
+    }.iconContainer{
+    
+        
+        margin: 0px;
+        padding:0px;
+        display: flex;
+        flex-direction: row;
     }
 }
 form{
@@ -58,7 +65,7 @@ form input:hover{
     width:auto;
     height:60px;
     font-size: 1.25em;
-    font-family: Poppins;
+    font-family: Poppins,Raleway,sans-serif;
     align-items: center;
     line-height: 1.2;
     color: white;
