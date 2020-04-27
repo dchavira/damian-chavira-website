@@ -7,3 +7,15 @@
 
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js"></script>
+
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBaq4K_rkIxEIyfNQaor-P5MBlzGUcVX_0",
+  authDomain: "damian-chavira.firebaseapp.com",
+  databaseURL: "https://damian-chavira.firebaseio.com",
+  projectId: "damian-chavira",
+  storageBucket: "damian-chavira.appspot.com",
+  messagingSenderId: "1095815552186",
+  appId: "1:1095815552186:web:0f425474f830d75a487683",
+  measurementId: "G-SBZNJQ365K"
+};

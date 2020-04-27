@@ -20,7 +20,6 @@ class JazzChords extends React.Component {
                          choices to use within the given chord. </p>
                     <p className='jazzContent'>
                         A live demo will be up soon. Keep checking for updates!
-                        To see the full page and details click <a className='jcLink'href='/jazzchords'>here</a>.
                         Tap a screen below to see the full image.
                     </p>
                     <Gallery/>   

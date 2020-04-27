@@ -32,13 +32,15 @@ class Resume extends React.Component {
                         <ul className='resumeList'>
                             <li className='resumeIndiv'>
                                 <h1 className='year'>2020-Current</h1>
-                                <h3 className='role'>Software Developer</h3>
-                                <h2 className='desc'>Developed stuff I guess</h2>
+                                <h3 className='role'>Software Developer at Blue Yonder</h3>
+                                <h2 className='desc'>Front End Development</h2>
                             </li>
                             <li className='resumeIndiv'>
                                 <h1 className='year'>2019-Current</h1>
                                 <h3 className='role'>Freelance Developer</h3>
-                                <h2 className='desc'>Anything on this site</h2>
+                                <h2 className='desc'>Game Developement</h2>
+                                <h2 className='desc'>Front End Developement</h2>
+                                <h2 className='desc'>Mobile App Developement</h2>
                             </li>
                         </ul>
                         <h2 className='ResumeHeader'>Education</h2>

@@ -21,7 +21,7 @@ class Projects extends React.Component {
                         <li className='projectWrap'>
                             <IndivProject
                                 name='Jazz Chords'
-                                image='./img/projectLogos/LOGO-JPG.jpg'
+                                image='./img/projectLogos/jazzChordsTempLogo.jpg'
                                 link='/jazzchords'
                             />
                         </li>
@@ -37,7 +37,7 @@ class Projects extends React.Component {
                         <li className='projectWrap'>
                             <IndivProject
                                 name='3D Art'
-                                image='./img/3d/sunset.png'
+                                image='./img/3d/sunset.jpg'
                                 link='/art'
                             />
                         </li>

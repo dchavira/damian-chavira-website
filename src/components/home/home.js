@@ -4,14 +4,16 @@ import './home.css'
 
 
 class Home extends React.Component {
-
+    
+    
 
 
     render() {
-
+        
         return (
-
+            
             <div>
+                
                 <div><img src="/img/concert4k dark.jpg" id='concert' alt="concert" /></div>
                 <h1 className='sectionHeader'>Welcome!</h1>
                 <p>

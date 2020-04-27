@@ -10,7 +10,8 @@ class Contact extends React.Component {
             name:'',
             email:'',
             message:'',
-            errorMessage:''
+            errorMessage:'',
+            buttonText:'Send Your Message'
         }
     }
     eventHandler = (event)=>{
@@ -26,6 +27,10 @@ class Contact extends React.Component {
             alert('Please enter a valid email address')
             err=<strong>*Your email isn't valid.</strong>
         }
+        else{
+            
+        this.setState({buttonText:'Sending...'})
+        }
         this.setState({errorMessage:err})
     }
 
@@ -36,7 +41,26 @@ class Contact extends React.Component {
 
             <div id="formContainer">
                 <h1 className='title'>Contact</h1>
-                <form onSubmit={e=>{e.preventDefault()}}>
+                <p>I will answer the fastest if you email me! I have other socials below that you can contact me through.</p>
+                <p >Email: <a href='mailto:damianchavira@gmail.com'>damianchavira@gmail.com</a></p>
+                
+                
+                <ul className='iconContainer'>
+                    <li><a href='mailto:damianchavira@gmail.com'><MdMailOutline className='iconsContact mailIcon'/></a></li>
+                    <li><a href='//www.linkedin.com/in/damian-chavira-a45886141'><FaLinkedin className='iconsContact'/></a></li>
+                    <li><a href='//www.github.com/dchavira'><FaGithub className='iconsContact'/></a></li>
+                </ul>
+            </div>
+
+        )
+
+    }
+
+}
+
+export default Contact;
+
+/*<form onSubmit={e=>{e.preventDefault()}}>
                     <input
                         name='name'
                         placeholder='NAME'
@@ -54,7 +78,7 @@ class Contact extends React.Component {
                         type='text'
                         onChange={this.eventHandler}/>
                     
-                    <button type='button' className='submit' onClick={this.submitHandler}>Send Your Message</button>
+                    <button type='button' className='submit' onClick={this.submitHandler}>{this.state.buttonText}</button>
                 
                 </form>
                 <ul className='iconContainer'>
@@ -62,13 +86,4 @@ class Contact extends React.Component {
                     <li><a href='//www.linkedin.com/in/damian-chavira-a45886141'><FaLinkedin className='iconsContact'/></a></li>
                     <li><a href='//www.github.com/dchavira'><FaGithub className='iconsContact'/></a></li>
                 </ul>
-                {this.state.errorMessage}
-            </div>
-
-        )
-
-    }
-
-}
-
-export default Contact;
+                {this.state.errorMessage}*/

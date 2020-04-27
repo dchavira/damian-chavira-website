@@ -9,7 +9,7 @@ class Art extends React.Component {
                 <div id='art'>
                 <ul className='artContainer'>
                     <li className='thumb'>
-                        <a href='/img/3d/sunset.png'><img className='r1' src='/img/3d/sunset.png' alt="Jazz Chords Home Screen"/></a>
+                        <a href='/img/3d/sunset.jpg'><img className='r1' src='/img/3d/sunset.jpg' alt="Jazz Chords Home Screen"/></a>
                     </li>
                     <li className='thumb'>
                         <a href='/img/3d/balanceVR.jpeg'><img className='r1' src='/img/3d/balanceVR.jpeg' alt="Jazz Chords Home Screen" /></a>
