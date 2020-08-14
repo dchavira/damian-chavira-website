@@ -25,6 +25,8 @@ class Resume extends React.Component {
                                 <h2 className='desc'>C# Unity Scripting</h2>
                                 <h2 className='desc'>C++/Blueprint UE4 Scripting</h2>
                                 <h2 className='desc'>Blender3D</h2>
+                                <h2 className='desc'>Substance Painter</h2>
+                                <h2 className='desc'>Motion Capture</h2>
                             </li>
                         </ul>
                         <h2 className='ResumeHeader'>Experience</h2>
@@ -33,8 +35,9 @@ class Resume extends React.Component {
                             <li className='resumeIndiv'>
                                 <h1 className='year'>2020-Current</h1>
                                 <h3 className='role'>Software Developer Intern at Blue Yonder</h3>
-                                <h2 className='desc'>Front End Development (React/Angular)</h2>
-                                <h2 className='desc'>API Development</h2>
+                                <h2 className='desc'>Front End Development (React Typescript)</h2>
+                                <h2 className='desc'>UI/UX Design (Adobe XD)</h2>
+                                <h2 className='desc'>API Development (Java Spring Boot/Microsoft Graph)</h2>
 
                             </li>
                             <li className='resumeIndiv'>
