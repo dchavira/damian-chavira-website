@@ -38,7 +38,7 @@ class Projects extends React.Component {
                             <IndivProject
                                 name='3D Art'
                                 image='./img/3d/sunset.jpg'
-                                link='/art'
+                                link='//www.artstation.com/damianchavira'
                             />
                         </li>
                     </ul>

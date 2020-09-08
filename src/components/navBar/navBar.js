@@ -16,6 +16,7 @@ class NavigationBar extends React.Component {
                     <Nav className="mr-auto" >
                         <Nav.Link href="/" className="navBarLink">Home</Nav.Link>
                         <Nav.Link href="resume" className="navBarLink">Resume</Nav.Link>
+                        <Nav.Link href="//www.artstation.com/damianchavira" className="navBarLink">Art</Nav.Link>
                         <Nav.Link href="projects" className="navBarLink">Projects</Nav.Link>
                         <Nav.Link href="contact" className="navBarLink">Contact</Nav.Link>
                     </Nav>

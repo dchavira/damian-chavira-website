@@ -10,7 +10,7 @@ class NotFound extends React.Component {
                 <p className='notFoundContent'>It seems like we couldn't find that page...</p>
                 <p className='notFoundContent'>Check the URL and make sure it is spelled correctly.
                 If so, then the page does not exist or is currently being made. Here's what you can do:</p>
-                <p className='notFoundContent'><a href='/'>Go home</a></p>
+                <p className='notFoundContent'><a href='//www.damianchavira.com'>Go home</a></p>
                 <p className='notFoundContent'><a href='/projects'>Check out my projects</a></p>
             </div>
             
